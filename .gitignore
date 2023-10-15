@@ -1,0 +1,5 @@
+# Dependency directories
+node_modules/
+
+# tgz (for submission)
+chorus-lapilli-0.1.0.tgz

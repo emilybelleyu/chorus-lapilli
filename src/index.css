@@ -1,0 +1,58 @@
+body {
+  background: rgb(246, 236, 242);
+  color:rgb(77, 61, 78);
+  font: 18px "Georgia", Times, sans-serif;
+  margin: 20px;
+}
+
+ol, ul {
+  padding-left: 30px;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+.square {
+  background-color: rgb(231, 246, 248);
+  border: px solid rgb(114, 91, 110);
+  border-radius: 3px;
+  color: rgb(202, 159, 119);
+  float: left;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 50px;
+  height: 50px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 50px;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.kbd-navigation .square:focus {
+  background: #fdd3e7;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.game-info {
+  margin-left: 20px;
+}
+
+
